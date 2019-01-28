@@ -46,6 +46,7 @@ setup(
 
     keywords='sunfounder raspberry pi robot car',
     packages=find_packages(exclude=['docs', 'tests*']),
+    use_2to3=True,
 
     # To provide executable scripts, use entry points in preference to the
     # "scripts" keyword. Entry points provide cross-platform support and allow
